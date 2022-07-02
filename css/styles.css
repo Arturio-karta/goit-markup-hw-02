@@ -7,112 +7,198 @@
     --secondary-backgruond-color: #F5F4FA;
 }
 body {
-    color: #757575;
-    background-color: #FFFFFF;
-    font-family: 'Roboto';
+color: #757575;
+font-family:'Roboto', sans-serif;
+background-color: #FFFFFF;
+letter-spacing: 0.03em;
+font-size: 14px;
+line-height: 1.14;
 }
 /* Верхняя линия*/
-ul {
-list-style: none;
-}
+
 .logo .span {
 color: #000000;
 }
 .logo { 
 color: #2196F3;
+font-family: 'Raleway' sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+text-decoration: none;
 }
 .logo:hover {
 color: #2196F3;
 }
+.site-nav {
+font-weight: 500;
+letter-spacing: 0.02em;
+text-decoration: none;
+
+}
 .site-nav .link {
 color: #212121;
+font-weight: 500;
+letter-spacing: 0.02em;
+text-decoration: none;
 }
 .site-nav .link:hover, .site-nav .link:focus {
 color: #2196F3;
 }
 .site-nav .link-current{
-    color: #2196f3;
+color: #2196f3;
+font-weight: 500;
+letter-spacing: 0.02em;
+text-decoration: none;
 }
 .contact-bloc .contact {
-    color: #757575;
+color: #757575;
+text-decoration: none;
+font-weight: 500;
+letter-spacing: 0.02em;
 }
 .contact-bloc .contact:hover, .contact-bloc .contact:focus {
-    color: #2196F3;   
+color: #2196F3;   
 }
-    
+
 /* Герой */
 .hero {
     background-color: #2F303A;
 }
 .hero .hero-title {
-    color: #FFFFFF;
+color: #FFFFFF;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 /* button */
+button {
+    background-color: var(--secondary-backgruond-color);
+    font-family: inherit;
+    cursor: pointer;
+    color: var(--title-text-color);
+    }
 .button-one {
-    color: var(--premary-white-color);
-    background-color: var(--accent-color);
+color: var(--premary-white-color);
+background-color: var(--accent-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;  
 }
 .button-one:hover, .button-one:focus {
-    background-color: var(--accent-shadow-color)
+background-color: var(--accent-shadow-color)
+}
+.button .button-current {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
 }
 .button-current {
-    color: var(--premary-white-color);
-    background-color: var(--accent-color);
+color: var(--premary-white-color);
+background-color: var(--accent-color);
 }
 .button:hover, button:focus {
-    color: var(--premary-white-color);
-    background-color: var(--accent-color);
+color: var(--premary-white-color);
+background-color: var(--accent-color);
 }
 /* Загальні */
+ul {
+list-style: none;
+    }
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+ position: absolute;
+width: 1px;height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
-button {
-cursor: pointer;
-}
+
 .title {
-    color: #212121;
-}
-.section-title {
-    color: #212121;
+color: #212121;
 }
 /* Особливості */
+.feature-list .title {
+text-transform: uppercase;
+}
+.title .feature {
+font-size: 14px;
+line-height: 1.71;
+}
 /* Чим ми займаємся */
+.section-title {
+color: #212121;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+}
+
 /* Наша команда */
+.title .product {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+}
+.team-icon, title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+}
 .section-team {
-    background-color: #F5F4FA;
+background-color: #F5F4FA;
 }
 .team-icon {
-    background-color: #FFFFFF;
+background-color: #FFFFFF;
 }
 /* footer */
 footer {
-    background-color: #2F303A;
+background-color: #2F303A;
 }
 .logo-footer {
-    color: #2196F3;
+color: #2196F3;
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+text-decoration: none;
 }
 .logo-footer .span-footer {
     color: #FFFFFF;
 }
+.contact-footer {
+font-size: 14px;
+line-height: 1.71;
+}
 .contact-footer .contact {
-   color: rgba(255, 255, 255, 0.6); 
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
 }
 .contact-footer .contact:hover, .contact-footer .contact:focus {
-    color: #2196F3;    
+color: #2196F3;    
 }
 .contact-footer .link-map {
-    color: #FFFFFF;
+color: #FFFFFF;
+font-size: 14px;
+line-height: 1.71;
+text-decoration: none;
 }
 .contact-footer .link-map:hover, .contact-footer .link-map:focus {
-    color: #2196F3;  
+color: #2196F3;  
+}
+/* 2Сторінка Main */
+.list .title {
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+.title-product {
+font-size: 16px;
+line-height: 1.87;
 }
