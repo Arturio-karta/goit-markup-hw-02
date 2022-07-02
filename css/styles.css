@@ -92,14 +92,17 @@ letter-spacing: 0.06em;
 .button-one:hover, .button-one:focus {
 background-color: var(--accent-shadow-color)
 }
-.button .button-current {
+.button {
 font-weight: 500;
 font-size: 16px;
-line-height: 1.62;
+line-height: 1.62;    
 }
 .button-current {
 color: var(--premary-white-color);
 background-color: var(--accent-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
 }
 .button:hover, button:focus {
 color: var(--premary-white-color);
