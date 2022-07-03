@@ -21,7 +21,7 @@ color: #000000;
 }
 .logo { 
 color: #2196F3;
-font-family: 'Raleway' sans-serif;
+font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -47,8 +47,7 @@ color: #2196F3;
 }
 .site-nav .link-current{
 color: #2196f3;
-font-weight: 500;
-letter-spacing: 0.02em;
+    
 text-decoration: none;
 }
 .contact-bloc .contact {
@@ -129,6 +128,8 @@ color: #212121;
 }
 /* Особливості */
 .feature-list .title {
+font-size: 14px;
+line-height: 1.14;
 text-transform: uppercase;
 }
 .title .feature {
@@ -149,7 +150,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
 }
-.team-icon, title {
+.team-icon .title {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -180,6 +181,7 @@ font-size: 14px;
 line-height: 1.71;
 }
 .contact-footer .contact {
+font-style: normal;
 color: rgba(255, 255, 255, 0.6);
 text-decoration: none;
 }
@@ -188,6 +190,7 @@ color: #2196F3;
 }
 .contact-footer .link-map {
 color: #FFFFFF;
+font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 text-decoration: none;
